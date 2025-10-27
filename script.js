@@ -108,7 +108,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if(select) {
                 select.addEventListener('change', updatePrice);
-                "build:dev": "vite build --mode development"
             }
             
             updatePrice();
